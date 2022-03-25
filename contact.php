@@ -1,146 +1,57 @@
- <?php  require('./compenents/header.php'); ?>
-
 <!DOCTYPE html>
-<html lang="">
-    <head>
-       
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>Contact Us</title>
-        <link rel = "icon" href = #
-                type ="image/x-icon">
-                  
-        <link rel="stylesheet" href="./CSS/contact.css">
-    </head>
-<body>
-    <div class="contactus">
-        <div class="title">
-            <H3>Contact Us</H3>
-           
-        </div>
-        <DIv class="box">
-            <!--formulaire -->
-              <div class="contact form">
-                  <h3>Send a Message </h3>
-                  <form action="">
-                      <div class="formbox">
-                          <div class="row">
-                              <div class="entrebox">
-                                  <span>First name</span>
-                                  <input type="text" placeholder="">
-                              </div>
-                              <div class="entrebox">
-                                  <span>Last name</span>
-                                  <input type="text" placeholder="">
-                              </div>
-
-                          </div>
-
-
-
-<div class="row">
-    <div class="entrebox">
-        <span>Email</span>
-        <input type="text " placeholder="">
-    </div>
-    <div class="entrebox">
-        <span>Mobile</span>
-        <input type="text" placeholder="">
-    </div>
-</div>
-
-
-<div class="rows">
-    <div class="entrebox">
-        <span>Message</span>
-        <textarea rows="8" cols="30" placeholder=""></textarea>
-    </div>
-</div>
-
-<div class="rows">
-    <div class="entrebox">
-<input type="submit" value="Send" >        
-    </div>
-</div>
-                      </div>
-                  </form>
-              </div>
-
-
-
-              <!-- information --> 
-              <div class="contact info">
-                  <h3>Contact Info</h3>
-<div class="infobox">
-    <div >
-        <span><ion-icon name="location-sharp"></ion-icon></span>
-        <p>Université Mouloud Mammeri,Tizi-Ozou,Algérie </p>
-    
-    </div>
-
-
-    <div>
-        <span><ion-icon name="mail-sharp"></ion-icon></span>
-        <a href="#">JinxArt@gmail.com</a>
-    
-    </div>
-    
-<ul class="sociaux media">
-    <li><a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon>
-
-    </a></li>
-
-
-
-    <li><a href="https://twitter.com/" target="_blank"><ion-icon name="logo-twitter"></ion-icon>
-
-    </a></li>
-
-
-
-    <li><a href="https://instagram.com/" target="_blank"><ion-icon name="logo-instagram"></ion-icon>
-
-    </a></li>
-
-
-
-
-    <li><a href="https://linkedin.com/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>
-
-    </a></li>
-
-
-
-
-    <li><a href="https://discord.com/" target="_blank"><ion-icon name="logo-discord"></ion-icon>
-
-    </a></li>
-</ul>
-
-</div>
-                </div>
-
-
-
-
-
-
-              <!--map-->
-              <div class="contact maap"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12794.743983180319!2d4.04185810046386!3d36.7060827796973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3244f92dc7b2c4d6!2sUniversit%C3%A9%20Mouloud%20Mammeri%20de%20Tizi-Ouzou!5e0!3m2!1sfr!2sdz!4v1643849943558!5m2!1sfr!2sdz"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </div>
-        </DIv>
-    </div>
-    
-
-
-
-
-
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
- <?php  require('./compenents/footer.php'); ?>
-
+<html style="font-size: 62.5%;font-family: 'Nunito', sans-serif;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<link rel='stylesheet prefetch' href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/1db09dea83.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+<title>JinxArt MarketPlace</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="select_chain.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<!-- css linking --> 
+<link rel="stylesheet" href="./dist/output.css" >
+<link rel="stylesheet" href="./dist/style.css" >
+<link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body style="background: black;">
+<?php  require('./compenents/header.php'); ?>
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+       <img src="./images/contact.jpg" alt="">
+      </div>
+    <form action="#">
+      <div class="topic">Send us a message</div>
+      <div class="input-box">
+        <input type="text" required>
+        <label>Enter your name</label>
+      </div>
+      <div class="input-box">
+        <input type="text" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="message-box">
+        <textarea required ></textarea>
+        <label>Enter your message</label>
+      </div>
+      <div class="input-box">
+        <input type="submit" value="Send Message">
+      </div>
+    </form>
+  </div>
+  </div>
+<?php  require('./compenents/footer.php'); ?>
 </body>
 </html>
+

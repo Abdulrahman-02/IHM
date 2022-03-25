@@ -1,3 +1,28 @@
+<html style="font-size: 62.5%;font-family: 'Nunito', sans-serif;">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+<link rel='stylesheet prefetch' href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap" rel="stylesheet">
+<!-- style linking -->
+<link href="./dist/output.css" rel="stylesheet">
+<link href="./dist/style.css" rel="stylesheet">
+<!-- script linking -->
+<script src="https://kit.fontawesome.com/1db09dea83.js" crossorigin="anonymous"></script>
+
+<title>webHeader</title>
+</head>
+<body class="bg-black">
  <?php  require('./compenents/header.php'); ?>
   <section class="w-full sm:mt-4 mt-8 mob:mt-0" >
       <div  class="aftab:w-80%  md:w-90% w-88%  aftab:px-0 m-auto grid ml:grid-cols-0 py-20  aftab:py-10 mt:py-8vw sm:py-10  mt:space-y-8vw mob:w-90vw">
